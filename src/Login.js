@@ -83,7 +83,13 @@ const Login = () => {
             />
           </div>
           {error && <p className="error">{error}</p>}
-          <button type="submit">Submit</button>
+          <a href="/">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
         </form>
       </div>
       <ToastContainer />
